@@ -6,13 +6,22 @@
         <title>
             Sai Min
         </title>
-        <link rel="stylesheet" href="./styles/style.css"/>  
+        <link rel="stylesheet" href="./styles/index.css"/>
+        <link rel="stylesheet" href="./styles/nav/nav.css"/>
+        <link rel="stylesheet" href="./styles/contact/contact.css"/>
+        <link rel="stylesheet" href="./styles/experiences/experiences.css"/>
+        <link rel="stylesheet" href="./styles/hero/hero.css"/>
+        <link rel="stylesheet" href="./styles/projects/projects.css"/>
+        <link rel="stylesheet" href="./styles/nav/responsive.css"/>
+
+
     </head>
     <body>
         <nav>
+            <div class="nav-container">
             <a href="#" class="profile">
                 <div class="profile-image"></div>
-                <p>it's me</p>
+                <p>it's me</p> 
             </a>
             <!--Desktop Nav Links-->
             <div class="nav-links">
@@ -23,22 +32,30 @@
 
             <!--Mobile Nav Links-->
             <button class="mobile-nav-toggle">
-                <span class="mobile-nav-toggle-line-1"></span>
-                <span class="mobile-nav-toggle-line-2"></span>
-                <span class="mobile-nav-toggle-line-3"></span>
-
+                <div class="mobile-nav-toggle-line-1"></div>
+                <div class="mobile-nav-toggle-line-2"></div>
+                <div class="mobile-nav-toggle-line-3"></div>
             </button>
-
-            <!--<div class="mobile-nav-links">
+            </div>
+            <div class="mobile-nav-links">
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
-            </div>-->
+            </div>
         </nav>
 
-        <section id="hero"> </section>
+        <section id="hero"> 
+            <h1>Sai Min</h1>
+            <p>A Software Engineer</p>
+            
+           <a href="./my-cv.txt" download="my-cv">
+             <button class="btn btn-lg">Download CV</button>
+           </a>
+             
+        </section>
         <section id="experience"></section>
         <section id="projects"></section>
         <section id="contact"></section>
+        <script src="./js/index.js"></script>
     </body>
 </html>
