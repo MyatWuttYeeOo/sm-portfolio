@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 #hero h1{
     font-family: var(--font-family-title);
@@ -25,3 +26,19 @@
     width: 100%;
     height: 100%;
 }
+.hero-img-1{
+    position: absolute;
+
+}
+.hero-img-4{
+    position: absolute;
+
+}
+.hero-img-2{
+    position: absolute;
+
+}
+.hero-img-3{
+    position: absolute;
+}
+

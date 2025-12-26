@@ -16,7 +16,10 @@
     --font-family-title: "Dynamo Shadow";
 
     --font-text: 16px;
-    --font-title: 1.5rem;
+    --font-title: 4rem;
+    --font-mb-text: 14px;
+    --font-sub-title: 2rem;
+    
 
     --black:#272727;
     --white: #f8f8f8;
@@ -28,7 +31,14 @@
 html{
     font-family: var(--font-family);
     scroll-behavior: smooth;
-    font-size: var(--font-text);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-family-title);
+    color: var(--white);
+}
+h1{
+    font-size: var(--font);
+
 }
 .btn{
     background-color: var(--white);
